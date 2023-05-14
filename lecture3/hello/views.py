@@ -7,3 +7,6 @@ def index(requset):
 
 def greeting(request):
     return HttpResponse("Hello, Gaman!")
+
+def greet(request, name):
+    return HttpResponse(f"Hello, {name}!")
